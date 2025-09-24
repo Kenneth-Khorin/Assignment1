@@ -1,141 +1,156 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HomePage</title>
-    <link rel="stylesheet" href="index.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Home | Vangarde</title>
+  <!-- UNIFIED THEME -->
+  <link rel="stylesheet" href="main.css" />
 </head>
 <body>
-    <header>
-        <!-- contruct navigation bar -->
-        <nav class="menu">
-            <a href="index.html">
-                <img src="LOGO.png">
-            </a>
-            <a href="index.html">Home</a>
-            <a href="job.html">Jobs</a>
-            <a href="apply.html">Application Now</a>
-            <a href="about.html">About Us</a>
-        </nav>
-    <!-- contruct banner -->
-        <div class="banner">
-            <div class="bannercontent">
-                <p>Build your future now with us</p>
-                <form action="job.html">
-                    <button type="submit" class="explore"> Explore carrer </button>
-                </form>
-            </div>
-        </div>
+
+  <!-- Shared Navbar -->
+  <header>
+    <nav role="navigation" aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html" class="nav-link active">Home</a></li>
+        <li><a href="jobs.html" class="nav-link">Jobs</a></li>
+        <li><a href="apply.html" class="nav-link">Apply</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Hero / Banner -->
+    <section class="banner">
+      <div class="bannercontent">
+        <p>Build your future now with us</p>
+        <form action="jobs.html">
+          <button type="submit" class="explore">Explore Careers</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Quick links -->
+    <section class="container">
+      <div class="content-wrapper" style="text-align:center">
         <div class="tablecontent">
-            <div class="content">
-                <a href="#whywork">WhyWorkWithus</a>
-                <a href="#team"> OurTeam</a>
-                <a href="#employee">EmployeeBenefits</a>
-                <a href="#globaloffice"> GlobalOffice</a>
-            </div>
-        </div>
-        <div class="why"> 
-            <h3>Why work with us</h3>
-            <div id="whywork">
-                <p>Our team is dedicated to solving real-world technology problems.
-                     Our teams are building the future of enterprise solutions, cybersecurity, 
-                     cloud services, and software development with purpose and impact.
-                </p>
-            </div>
-        </div>
-        <div class="youtube23">
-            <iframe class="youtube" src="https://www.youtube.com/embed/91tdkSp6ahA?si=7hIDFtaFurbIjBH-" title="YouTube video player" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
-        </div>
-        <div class="team">
-            <div id="team">
-                <h2>Our Teams</h2>
-                <p>
-                    We’re hiring across development, Software Developer, Data Analyst, Cybersecurity Specialist, IT Support Technician, and more. Whate
-                    ver your skills, there’s a team for you at Ourteam IT.</p>
-            </div>
-        </div>
-        <div class="benefits">
-            <div id="employee">
-                <h2>Benefits of becoming one of us</h2>
-                <ul>
-                    <li>Flexible work environments and remote opportunities</li>
-                    <li>Comprehensive health insurance</li>
-                    <li>Paid certification and training programs</li>
-                    <li>Retirement savings plan</li>
-                    <li>Wellness initiatives and team retreats</li>
-                </ul>
-            </div>
-            <img src="young-colleagues-group-having-fun-600nw-1989897731.webp" alt="working benefits">
-            </div>
-        <div class="globaloffice">
-            <div id="globaloffice">
-                <h1>Global Office</h1>
-                <p>With operations across North America, Europe, and Asia, OurTeam IT offers diverse opportunities for profes
-                    sionals around the world to work on global tech solutions.</p>
-                <form action="https://www.swinburne.edu.au/life-at-swinburne/study-abroad-exchange/contact-us/">
-                    <button type="submit" class="btn">More Details</button>
-                    </form>
-            </div>
-        </div>
-        <div class="readytojoin">
-            <h2>Ready to join us?</h2>
-            <div class="button">
-                <form action="apply.html">
-                    <button type="submit" class="btn">Get Started</button>
-                    </form>
-                <form action="jobs.html">
-                <button type="submit" class="btn">Explore Careers</button>
-                </form>
-            </div>
-        </div>
-    </header>
-    <footer>
-        <div class="footer">
-            <div class="objfooter">
-              <h3 style="margin-bottom: 15px">Contact</h3>
-              <div class="link">
-                <a href="">
-                  Jira Project
-                </a>
-              </div>
-              <div class="email">
-                Email:
-                <a href="mailto:someone@example.com">Lmao@gmail.com.au</a>
-              </div>
-              <div class="megaphonetelephone">
-                <a>Tel:045-532-214</a>
-              </div>
-            </div>
-            <div class="objfooter">
-              <h3 style="margin-bottom: 15px">Company</h3>
-              <div class="link">
-                <a>
-                  About us
-                </a>
-              </div>
-              <div class="email">
-                
-                <a>Event </a>
-              </div>
-              <div class="megaphonetelephone">
-                <a>Terms and conditions</a>
-              </div>
-            </div>
-            <div class="objfooter">
-              <h3 style="margin-bottom: 15px">Follow Us</h3>
-              <div class="link">
-                <a href="" target="_blank">GitHub</a>
-              </div>
-              <div class="email">
-                <a>Instagram</a>
-              </div>
-              <div class="megaphonetelephone">
-                <a>Twitter</a>
-              </div>
-            </div>
+          <div class="content" style="display:flex; gap:1.25rem; flex-wrap:wrap; justify-content:center; border-color:#e2e8f0;">
+            <a href="#whywork">Why Work With Us</a>
+            <a href="#team">Our Team</a>
+            <a href="#employee">Employee Benefits</a>
+            <a href="#globaloffice">Global Office</a>
           </div>
-    </footer>
+        </div>
+
+        <!-- Why work -->
+        <div class="why" id="whywork">
+          <h2>Why work with us</h2>
+          <p style="max-width:850px; margin:0 auto">
+            Our team is dedicated to solving real-world technology problems. We’re building the future of
+            enterprise solutions, cybersecurity, cloud services, and software development with purpose and impact.
+          </p>
+        </div>
+
+        <!-- Video -->
+        <div class="youtube23">
+          <iframe class="youtube"
+            src="https://www.youtube.com/embed/91tdkSp6ahA?si=7hIDFtaFurbIjBH-"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+          </iframe>
+        </div>
+
+        <!-- Our Team -->
+        <section id="team" class="team">
+          <h2>Our Teams</h2>
+          <p style="max-width:900px; margin:0 auto">
+            We’re hiring across Development, Software Engineering, Data Analysis, Cybersecurity, IT Support, and more.
+            Whatever your skills, there’s a team for you at Vangarde.
+          </p>
+        </section>
+      </div>
+    </section>
+
+    <!-- Benefits (kept simple & clean) -->
+    <section class="container">
+      <div class="content-wrapper">
+        <div class="benefits" style="align-items:center; flex-wrap:wrap">
+          <div id="employee" style="max-width:520px">
+            <h2>Benefits of becoming one of us</h2>
+            <ul style="margin-left:1.25rem; text-align:left">
+              <li>Flexible work environments and remote opportunities</li>
+              <li>Comprehensive health insurance</li>
+              <li>Paid certification and training programs</li>
+              <li>Retirement savings plan</li>
+              <li>Wellness initiatives and team retreats</li>
+            </ul>
+          </div>
+          <img src="young-colleagues-group-having-fun-600nw-1989897731.webp" alt="Working benefits"
+               style="width:420px; border-radius:12px; box-shadow:0 10px 30px rgba(0,0,0,.15)">
+        </div>
+      </div>
+    </section>
+
+    <!-- Global Office (overlay + centered text; fixed alignment) -->
+    <section class="globaloffice" id="globaloffice">
+      <div class="container" style="width:100%">
+        <div class="content-wrapper"
+             style="background:rgba(0,0,0,.55); color:#fff; max-width:820px; margin:0; padding:2rem 2.5rem">
+          <h1 style="color:#fff; -webkit-text-fill-color:#fff; margin-bottom:1rem">Global Office</h1>
+          <p style="font-size:1.15rem; line-height:1.7; margin-bottom:1.25rem">
+            With operations across North America, Europe, and Asia, Vangarde offers diverse opportunities for
+            professionals around the world to work on global tech solutions.
+          </p>
+          <form action="https://www.swinburne.edu.au/life-at-swinburne/study-abroad-exchange/contact-us/">
+            <button type="submit" class="btn">More Details</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA (centered heading + buttons aligned) -->
+    <section class="container">
+      <div class="content-wrapper" style="text-align:center">
+        <h2 style="margin-bottom:1rem">Ready to join us?</h2>
+        <div class="button" style="display:flex; gap:.75rem; justify-content:center; flex-wrap:wrap">
+          <form action="apply.html"><button type="submit" class="btn">Get Started</button></form>
+          <form action="jobs.html"><button type="submit" class="btn">Explore Careers</button></form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="content-wrapper" style="display:grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap:2rem; background:rgba(255,255,255,.96)">
+        <div>
+          <h3>Contact</h3>
+          <p><a href="#">Jira Project</a></p>
+          <p>Email: <a href="mailto:someone@example.com">Lmao@gmail.com.au</a></p>
+          <p>Tel: 045-532-214</p>
+        </div>
+        <div>
+          <h3>Company</h3>
+          <p><a href="about.html">About us</a></p>
+          <p><a href="#">Events</a></p>
+          <p><a href="#">Terms and conditions</a></p>
+        </div>
+        <div>
+          <h3>Follow Us</h3>
+          <p><a href="#" target="_blank">GitHub</a></p>
+          <p><a href="#">Instagram</a></p>
+          <p><a href="#">Twitter</a></p>
+        </div>
+      </div>
+    </div>
+    <p style="margin-top:1rem">&copy; 2025 Vangarde</p>
+  </footer>
+
 </body>
 </html>
