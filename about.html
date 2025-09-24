@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Meet the Three Musketeers team: Technology Division of CyberSecure Solutions">
+    <title>About Us - CyberSecure Solutions Technology Division</title>
+    
+    <!-- External CSS Link -->
+    <link rel="stylesheet" href="about.css">
+    
+    <!-- Embedded CSS -->
+    <style>
+        .about-hero {
+            background: linear-gradient(45deg, #8b5cf6, #ec4899);
+            color: white;
+            padding: 3rem;
+            border-radius: 15px;
+            margin-bottom: 2rem;
+            text-align: center;
+            animation: gradientShift 5s ease infinite;
+        }
+        
+        @keyframes gradientShift {
+            0% { background: linear-gradient(45deg, #8b5cf6, #ec4899); }
+            50% { background: linear-gradient(45deg, #ec4899, #8b5cf6); }
+            100% { background: linear-gradient(45deg, #8b5cf6, #ec4899); }
+        }
+    </style>
+</head>
+<body>
+    <!-- Skip to main content for accessibility -->
+    <a href="#main" class="skip-link">Skip to main content</a>
+    
+    <!-- Header with Navigation -->
+    <header>
+        <nav role="navigation" aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="jobs.html" class="nav-link">Jobs</a></li>
+                <li><a href="apply.html" class="nav-link">Apply</a></li>
+                <li><a href="about.html" class="nav-link active">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Main Content -->
+    <main id="main" class="container">
+        <div class="content-wrapper">
+            <!-- Team Header with inline CSS example -->
+            <h1 id="team-header" style="font-size: 3rem; text-transform: uppercase;">
+                Meet Our Team
+            </h1>
+            
+            <!-- hero section using embedded CSS class -->
+            <div class="about-hero">
+                <h2 style="color: white; -webkit-text-fill-color: white;">Excellence in Cybersecurity</h2>
+                <p>Dedicated to protecting digital assets and building secure solutions</p>
+            </div>
+            
+            <!-- Team Information with Nested List -->
+            <section id="team-info" aria-labelledby="team-header">
+                <h2>Team Information</h2>
+                <ul>
+                    <li><strong>Group Name:</strong> Three Musketeers
+                        <ul>
+                            <li>Class Schedule:
+                                <ul>
+                                    <li>Day: Thursday</li>
+                                    <li>Time: 12:30 PM - 02:30 PM</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+            
+            <!-- Member Contributions Section with Definition List -->
+            <section class="members-section" aria-label="Member contributions">
+                <h2>Member Contributions</h2>
+                
+                <div class="member-card">
+                    <h3>Nuyang Rai</h3>
+                    <dl>
+                        <dt>Role & Contribution</dt>
+                        <dd>Lead Developer - Architected the security framework and implemented encryption protocols</dd>
+                        
+                        <dt>First Programming Language</dt>
+                        <dd>Python - "print('Hello, World!')"</dd>
+                        
+                        <dt>Favorite Language</dt>
+                        <dd>Rust - "println!('Security through memory safety!');"</dd>
+                        
+                        <dt>Personal Quote</dt>
+                        <dd class="quote">In cybersecurity, paranoia is just good planning.</dd>
+                    </dl>
+                </div>
+                
+                <div class="member-card">
+                    <h3>Kenneth Khorin</h3>
+                    <dl>
+                        <dt>Role & Contribution</dt>
+                        <dd>UI/UX Designer - Created responsive interfaces and accessibility features</dd>
+                        
+                        <dt>First Programming Language</dt>
+                        <dd>JavaScript - "console.log('Hello, World!');"</dd>
+                        
+                        <dt>Favorite Language</dt>
+                        <dd>TypeScript - "console.log('Type safety matters!');"</dd>
+                        
+                        <dt>Personal Quote</dt>
+                        <dd class="quote">Good design is invisible until you need it.</dd>
+                    </dl>
+                </div>
+                
+                <div class="member-card">
+                    <h3>Nahian Bin Saud</h3>
+                    <dl>
+                        <dt>Role & Contribution</dt>
+                        <dd>Backend Engineer - Developed API endpoints and database architecture</dd>
+                        
+                        <dt>First Programming Language</dt>
+                        <dd>Java - "System.out.println('Hello, World!');"</dd>
+                        
+                        <dt>Favorite Language</dt>
+                        <dd>Go - "fmt.Println('Concurrency made simple!')"</dd>
+                        
+                        <dt>Personal Quote</dt>
+                        <dd class="quote">Clean code is written for humans, not machines.</dd>
+                    </dl>
+                </div>
+                
+                <div class="member-card">
+                    <h3>Ethan Nguyen</h3>
+                    <dl>
+                        <dt>Role & Contribution</dt>
+                        <dd>Security Analyst - Performed penetration testing and vulnerability assessments</dd>
+                        
+                        <dt>First Programming Language</dt>
+                        <dd>C++ - "cout << 'Hello, World!' << endl;"</dd>
+                        
+                        <dt>Favorite Language</dt>
+                        <dd>Python - "print('Automate everything!')"</dd>
+                        
+                        <dt>Personal Quote</dt>
+                        <dd class="quote">The best defense is knowing your vulnerabilities.</dd>
+                    </dl>
+                </div>
+            </section>
+            
+            <!-- Team Photo -->
+            <figure>
+                <img src="WebTechGroup.jpg" 
+                     alt="Web Technology Group"
+                     width="800"
+                     height="400">
+                <figcaption>The Three Musketeers Team - Building secure solutions for tomorrow's challenges</figcaption>
+            </figure>
+            
+            <!-- Fun Facts Table -->
+            <section aria-label="Team fun facts">
+                <div class="table-container">
+                    <table>
+                        <caption>Team Fun Facts & Personal Details</caption>
+                        <thead>
+                            <tr>
+                                <th scope="col">Team Member</th>
+                                <th scope="col">Dream Job</th>
+                                <th scope="col">Coding Snack</th>
+                                <th scope="col">Hometown</th>
+                                <th scope="col">Favorite Tech</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Nuyang Rai</th>
+                                <td>Chief Security Officer at Fortune 500</td>
+                                <td>Green tea & almonds</td>
+                                <td>Thimphu, Bhutan</td>
+                                <td>Cloud Computing</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Kenneth Khorin</th>
+                                <td>Product Design Lead at Apple</td>
+                                <td>Coffee & dark chocolate</td>
+                                <td>Moscow, Russia</td>
+                                <td>AR/VR Interfaces</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Nahian Bin Saud</th>
+                                <td>Software Architect at Google</td>
+                                <td>Energy drinks & chips</td>
+                                <td>Dhaka, Bangladesh</td>
+                                <td>Quantum Computing</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Ethan Nguyen</th>
+                                <td>Ethical Hacker at cybersecurity firm</td>
+                                <td>Bubble tea & sushi</td>
+                                <td>Ho Chi Minh City, Vietnam</td>
+                                <td>AI & Machine Learning</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </div>
+    </main>
+    
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 CyberSecure Solutions - Technology Division</p>
+        <p>Building a safer digital future, one line of code at a time.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,212 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+/* making nav bar */
+nav.menu {
+    background-color: grey;
+    padding: 20px;
+}
+nav.menu a{
+    padding: 16px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    color: black;
+    display: inline-block;
+    text-align: center;
+}
+nav.menu a:hover {
+    background-color: aliceblue;
+    border: 2px solid;
+    padding: 15px;
+    border-radius: 14px;
+    color: blue;
+}
+/* adjust the size of the image */
+nav.menu img {
+    height: 10em;
+    width: 10em;
+    box-sizing: border-box;
+}
+/* making banner */
+div.banner {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    background-image: url("apply.png");
+    background-size: cover;
+  }
+div.bannercontent{
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 20px;
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    color: violet
+}
+/* button */
+.explore{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #03346e;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+/* making table content */
+div.tablecontent{
+    text-align: center;
+    padding: 2em;
+    margin-top: 40px;
+}
+.content {
+    display: inline;
+    width: 500px;
+    height: 50px;
+    border: 2px solid;
+    border-radius: 2px;
+    padding: 2em;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 24px;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1);
+}
+.content a{
+    text-decoration: none;
+    color: black;
+}
+/* why work with us  */
+div.why{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 80px;
+    text-align: center;
+    max-width: 850px;
+    margin: 50px auto;
+}
+/* video making */
+iframe {
+    overflow-clip-margin: content-box !important;
+    overflow: clip !important;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+.youtube23{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.youtube{
+    aspect-ratio: 16 / 9;
+    width: 700px;
+}
+/* Ourteam part */
+.team{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.team{
+    background-color: black;
+}
+#team{
+    background-color: darkgrey;
+    font-size: 25px;
+    margin-top: 80px;
+    max-width: 850px;
+    margin: auto;
+}
+/* benefits */
+div.benefits {
+    display: flex;
+    background-color: #333;
+    color: white;
+    padding: 100px 0 100px;
+    align-items: center;
+    justify-content: center;
+    clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%);
+}
+#benefits{
+    max-width: 500px;
+    padding: 0 40px;
+    color: white;
+}
+/* global office */
+div.globaloffice{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(main-lobby.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 95vh;
+    color: white;
+    display: flex
+;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    margin-bottom: 0%;
+}
+#globaloffice {
+    color: white;
+    width: 500px;
+    font-size: 50px;
+    margin-left: 5%;
+    margin: auto;
+}
+.btn{
+    background-color: #03346e;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+/* ready to join part */
+.readytojoin{
+    margin-top: 0%;
+    text-align: center;
+    margin: 20px;
+    background-color:cornflowerblue
+}
+div.button{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+/* footer */
+.footer {
+    background-color: rgb(225, 225, 225);
+    text-align: right;
+    display: grid
+;
+    grid-template-columns: 20% 20% 15% 15% 15%;
+    column-gap: 40px;
+}
+.objfooter {
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
