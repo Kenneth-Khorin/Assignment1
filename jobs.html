@@ -7,25 +7,48 @@
     <meta name="author" content="Kenneth Khorin">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jobs page</title>
+
+    <!-- keep your page css -->
     <link rel="stylesheet" href="jobs.css">
+    <!-- add unified theme (loads last so it can style the shared navbar/layout) -->
+    <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
+
+    <!-- Shared Navbar (added) -->
+    <header>
+      <nav role="navigation" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="jobs.html" class="nav-link active">Jobs</a></li>
+          <li><a href="apply.html" class="nav-link">Apply</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Unified layout wrappers (added) -->
+    <main>
+      <section class="container">
+        <div class="content-wrapper">
+
+    
     <img src="images/shieldlogo.png" alt="Vangarde Logo" class="logo">
     <h1>Career at Vangarde</h1>
     <p class="p1">We’re a young and ambitious cybersecurity firm with big plans to expand, and we’re looking for passionate people to grow with us. you’ll have the opportunity to shape our culture, contribute to innovative solutions, and make a real impact as we build and scale. Check out our current job openings below:</p>
-
+    <section>
     <aside>
     <h2>Why Work With us</h2>
     <ol>
-        <li><b>Be part of a growing company:</b> Join us at an exciting stage where your contributions directly shape our future.</li>
-        <li><b>Innovative projects:</b> Work on cutting-edge cybersecurity solutions that challenge the status quo.</li>
-        <li><b>Collaborative culture:</b> We value teamwork, openness, and shared success.</li>
-        <li><b>Professional growth:</b> Opportunities for learning, development, and career advancement.</li>
+        <b>Be part of a growing company:</b> Join us at an exciting stage where your contributions directly shape our future.<br></li>
+        <b>Innovative projects:</b> Work on cutting-edge cybersecurity solutions that challenge the status quo.<br></li>
+        <b>Collaborative culture:</b> We value teamwork, openness, and shared success.<br></li>
+        <b>Professional growth:</b> Opportunities for learning, development, and career advancement.<br></li>
     </ol>
     </aside>
 
-    <section>
+    
     <h2>Benefits&Perks at Vangarde</h2>
     <dl>
         <dt>&#128181; Competitive Salary</dt>
@@ -256,9 +279,11 @@
             <p>Ref #: CSA121</p>
         </div>
     </section>
+    
+
+        </div>
+      </section>
+    </main>
 
 </body>
-
-
-
 </html>
