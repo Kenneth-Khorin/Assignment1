@@ -158,6 +158,7 @@ figure img {
     height: auto;
     border-radius: 10px;
     box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+    border: 3px solid #667eea;
 }
 
 figcaption {
@@ -166,37 +167,12 @@ figcaption {
     color: #666;
 }
 
-/* =================
-   FLEXBOX 
-   ================== */
-.form-container {
+/* Student IDs aligned right */
+.student-ids {
     display: flex;
-    flex-direction: column;
-    gap: 16px; 
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-.form-group {
-    display: flex;
-    flex-direction: column;
-}
-
-.form-group label {
-    font-weight: bold;
-    margin-bottom: 8px; 
-}
-
-.btn {
-    background: #667eea;
-    color: white;
-    padding: 12px 32px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-.btn:hover {
-    background: #5a67d8;
+    justify-content: flex-end; /* aligns text to the right */
+    margin-bottom: 16px;
+    font-style: italic;
+    color: #555;
+    font-size: 14px;
 }
