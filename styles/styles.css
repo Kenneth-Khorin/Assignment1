@@ -1,0 +1,72 @@
+/*=================================
+UNIVERSAL STYLESHEET FOR ALL PAGES
+===================================*/
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #ffcc00;
+}
+
+/* =================================
+   RESPONSIVE DESIGN - Media Queries
+   ================================= */
+@media (max-width: 768px) {
+    /* Adjust container padding for mobile */
+    .content-wrapper {
+        padding: 24px; /* 1.5rem */
+    }
+    
+    /* Stack navigation vertically on mobile */
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 8px; /* 0.5rem */
+    }
+    
+    /* Reduce indent for definition lists */
+    dd {
+        margin-left: 16px; /* 1rem */
+    }
+    
+    /* Adjust table font size */
+    table {
+        font-size: 14.4px; /* 0.9rem */
+    }
+    
+    th, td {
+        padding: 8px; /* 0.5rem */
+    }
+    
+    /* Adjust heading sizes */
+    h1 {
+        font-size: 32px; /* 2rem */
+    }
+    
+    h2 {
+        font-size: 24px; /* 1.5rem */
+    }
+    
+    h3 {
+        font-size: 19.2px; /* 1.2rem */
+    }
+}
+
+@media (max-width: 480px) {
+    /* Further adjustments for very small screens */
+    .container {
+        padding: 0 10px;
+    }
+    
+    .member-card {
+        padding: 16px; /* 1rem */
+    }
+    
+    /* Make table scroll horizontally */
+    .table-container {
+        overflow-x: scroll;
+    }
+}
