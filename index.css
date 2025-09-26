@@ -1,0 +1,260 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #101010;
+}
+header {
+    background: #1c1c1c;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+/* making nav bar */
+nav {
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+/* Class Selector - Navigation links */
+.nav-link {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+
+/* Pseudo-class Selectors - Interactive states */
+.nav-link:hover {
+    color: #ffcc00;
+    transform: translateY(-2px);
+}
+
+.nav-link:active {
+    transform: translateY(0);
+}
+
+.nav-link:focus {
+    outline: 3px solid #667eea;
+    outline-offset: 2px;
+}
+
+/* Compound Selector - Active navigation state */
+.nav-link.active {
+    background: linear-gradient(135deg, #ffcc00, #B8860B);
+    color: white;
+}
+
+/* making banner */
+div.banner {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    background-image: url("images/apply.png");
+    background-size: cover;
+  }
+div.bannercontent{
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 20px;
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    color: white;
+    border: 2px solid #ffcc00;
+    border-radius: 24px;
+    background-color: #1c1c1c;
+    padding: 10px;
+}
+/* button */
+.explore{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #03346e;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.vangardelogo{
+    text-align: center;
+}
+.vangardelogo p{
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+/* making table content */
+div.tablecontent{
+    text-align: center;
+    padding: 2em;
+    margin-top: 40px;
+}
+.content {
+    display: inline;
+    width: 500px;
+    height: 50px;
+    border: 2px solid #ffcc00;
+    border-radius: 2px;
+    padding: 2em;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 24px;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1);
+}
+.content a{
+    text-decoration: none;
+    color: white;
+}
+/* why work with us  */
+div.why{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 80px;
+    text-align: center;
+    max-width: 850px;
+    margin: 50px auto;
+    color: white;
+}
+/* video making */
+iframe {
+    overflow-clip-margin: content-box !important;
+    overflow: clip !important;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+.youtube23{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.youtube{
+    aspect-ratio: 16 / 9;
+    width: 700px;
+}
+/* Ourteam part */
+.team{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.team{
+    background-color: black;
+    color: #ccc;
+}
+#team{
+    background-color: #1c1c1c;
+    font-size: 25px;
+    margin-top: 80px;
+    max-width: 850px;
+    margin: auto;
+}
+/* benefits */
+div.benefits {
+    display: flex;
+    background-color: #333;
+    color: white;
+    padding: 100px 0 100px;
+    align-items: center;
+    justify-content: center;
+    clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%);
+}
+#benefits{
+    max-width: 500px;
+    padding: 0 40px;
+    color: white;
+}
+/* global office */
+div.globaloffice{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/main-lobby.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 95vh;
+    color: white;
+    display: flex
+;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    margin-bottom: 0%;
+}
+#globaloffice {
+    color: white;
+    width: 500px;
+    font-size: 50px;
+    margin-left: 5%;
+    margin: auto;
+}
+.btn{
+    background-color: #ffcc00;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+/* ready to join part */
+.readytojoin{
+    margin-top: 0%;
+    text-align: center;
+    margin: 20px;
+    background-color: #1c1c1c;
+    color: white;
+}
+div.button{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+/* footer */
+.footer {
+    background-color: #1c1c1c;
+    text-align: right;
+    display: grid;
+    grid-template-columns: 20% 20% 15% 15% 15%;
+    column-gap: 40px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.objfooter {
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
